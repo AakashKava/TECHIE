@@ -1,0 +1,366 @@
+@media (max-width:1024px){
+    .container{
+        max-width: 92%;
+        margin: auto;
+    }
+    .logo h1{
+        padding-left: 2rem;
+    }
+    #navbar ul {
+        padding-right: 0;
+    }
+    #hero-section{
+        width: 96vw;
+    }
+    .hero-banner img {
+        width: 50vw;
+    }
+
+    .about-img-wrapper img {
+        width: 46vw;
+    }
+    
+    .clients{
+        width: 250px;
+    }
+
+    .service-card{
+        width: 25.5vw;
+    }
+
+    .feature-img img {
+        width: 440px;
+    }
+
+    .testimonial-para{
+        width: 88vw;
+    }
+
+    .owl-item {
+        width: 91vw !important;
+    }
+
+    .owl-stage {
+        width: 5000px !important;
+    }
+
+    .card-side-banner p{
+        font-size: 12px ;
+    }
+
+    .wrapper {
+        width: 84vw;
+    }
+
+    .contact-second-row iframe{
+        width: 420px;
+    }
+
+    .footer-row-2 {
+        width: 20%;
+    }
+}
+
+@media (max-width:995px){
+    #navbar{
+        // padding: 3rem 0;
+        position: relative;
+    }
+    
+    #navbar ul {
+        padding-right: 0rem;
+    }
+
+    .fa-bars{
+        color: #FFF;
+        z-index: 500;
+    }
+
+    #navbar .menu-btn i{
+        display: block;
+        padding-right: 14rem;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    #navbar ul{
+        background: rgba(24, 6, 185, 0.8);
+        z-index: 5;
+        position: absolute;
+        width: 100%;
+        top: 68px;
+        left: -1111px;
+        display: block;
+        transition: all 0.3s ease;
+        padding-left: 11rem;
+    }
+    #click:checked ~ ul{
+        left: 0px;
+    }
+    #navbar ul li{
+        width: 100%;
+        margin: 12px 0;
+    }
+    #navbar ul li a{
+        display: block;
+        font-size: 14px;
+        transition: 0.6s;
+    }
+    #click:checked ~ ul li a{
+        margin-left: 33px;
+    }
+    
+    .logo h1 {
+        padding-left: 14rem;
+    }
+    .nav-btn button{
+        margin-left: 3rem;
+    }
+
+    .head-background {
+        height: 1050px;
+    }
+
+    #hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text{
+        text-align: center;
+    }
+
+    .hero-text h1{
+        line-height: 70px;
+    }
+
+    .about-img-wrapper img {
+        width: 600px;
+    }   
+    
+    .about-text-image-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .about-img-wrapper img {
+        width: 65vw;
+    }
+
+    .about-text-wrapper{
+        padding-top: 2rem;
+        margin: 0 9rem;
+    }
+
+    .clients {
+        width: 50vw;
+        margin-bottom: 3rem;
+    }
+
+    .service-card{
+        width: 31vw;
+    }   
+
+    .service-card-wrapper{
+        // margin: 4rem 10rem;
+        justify-content: center;
+    }
+
+    .feature-icon-list-img-wrapper{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .feature-img img {
+        width: 70vw;
+    }
+
+    .price-container{
+        flex-wrap: wrap;
+    }
+
+    .price-card{
+        width: 34vw;
+    }
+
+    .address-box {
+        width: 72%;
+        margin: auto;
+    }
+
+    .contact-first-row {
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .email-box, .phone-box {
+        width: 32.5%;
+    }
+
+    .first-row-box {
+        margin: 0rem 0rem 0rem 0;
+    }
+
+    .contact-second-row {
+        margin-top: 2rem;
+    }
+
+    .contact-second-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-second-row iframe{
+        width: 70vw;
+    }
+
+    .contact-form-wrapper {
+        width: 64vw;
+    }
+    .footer-top {
+        flex-wrap: wrap;
+    }
+
+    .footer-row-1,
+    .footer-row-3{
+        margin-left: 10rem;
+    }
+
+    .footer-row-3,
+    .footer-row-4{
+        margin-top: 2rem;
+    }
+
+    .footer-row-2,
+    .footer-row-4 {
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .hero-text p{
+        font-size: 18px;
+    } 
+
+    .hero-text h1{
+        font-size: 26px;
+    }
+
+    .logo h1 {
+        padding-left: 4rem;
+    }
+
+    #navbar .menu-btn i {
+        padding-right: 4rem;
+    }
+
+    .head-background {
+        height: 850px;
+    }
+
+    #navbar ul{
+        padding-left: 1rem;
+    }
+
+    .hero-text h1 {
+        line-height: 45px;
+    }
+
+    .service-card {
+        width: 38vw;
+    }
+
+    .testimonial-para {
+        width: 87vw;
+    }
+
+    .price-card {
+        width: 43vw;
+    }
+
+    .wrapper {
+        width: 72vw;
+    }
+
+    .address-box {
+        width: 65vw;
+    }
+
+    .email-box, .phone-box {
+        width: 70.5%;
+    }
+
+    .footer-row-1, .footer-row-3 {
+        margin-left: 1rem;
+    }
+}
+
+// for footer
+@media (max-width:700px){
+    .footer-row-1,
+    .footer-row-2,
+    .footer-row-3,
+    .footer-row-4{
+        width: 100%;
+    }
+
+    .footer-row-2{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .footer-row-4{
+        margin-left: 1rem;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+    }
+
+    .copy-right-area {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:600px){
+    .about-text-wrapper {
+        margin: 0 0rem;
+    }
+
+    .about-img-wrapper img {
+        width: 75vw;
+    }
+
+    .service-card {
+        width: 80vw;
+    }
+
+    // .owl-caraousel{
+    //     margin-left: 4rem !important;
+    // }
+
+    .testimonial-para {
+        width: 76vw;
+        padding: 2rem 1rem 6rem 2rem;
+    }
+
+    .owl-item{
+        margin: 0 3rem;
+    }
+
+    .price-card {
+        width: 87vw;
+    }
+}
+
+// for testimonials
+
+@media (max-width:425px){
+    .owl-item{
+        margin: 0px 2rem;
+    }
+}
