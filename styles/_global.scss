@@ -155,7 +155,7 @@
     align-items: center;
     width: 70vw;
     margin: auto;
-    padding-top: 20rem;
+    padding-top: 15rem;
 }
 
 .hero-text {
@@ -1145,16 +1145,7 @@ footer {
     }
   }
   
-  @keyframes flipInY {
-    0% {
-      opacity: 0;
-      transform: perspective(90vw) rotateY(67.50deg);
-    }
-    100% {
-      opacity: 1;
-      transform: none;
-    }
-  }
+  
   
   // Animations
   // ----------

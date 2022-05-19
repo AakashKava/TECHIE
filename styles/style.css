@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   width: 70vw;
   margin: auto;
-  padding-top: 20rem;
+  padding-top: 15rem;
 }
 
 .hero-text {
@@ -1441,32 +1441,6 @@ footer {
   }
 }
 
-@-webkit-keyframes flipInY {
-  0% {
-    opacity: 0;
-    -webkit-transform: perspective(90vw) rotateY(67.5deg);
-            transform: perspective(90vw) rotateY(67.5deg);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
-@keyframes flipInY {
-  0% {
-    opacity: 0;
-    -webkit-transform: perspective(90vw) rotateY(67.5deg);
-            transform: perspective(90vw) rotateY(67.5deg);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
 [data-animation] {
   opacity: 0;
   -webkit-animation-timing-function: var(--animation-timing-function);
@@ -1541,6 +1515,9 @@ footer {
   }
   #navbar ul {
     padding-right: 0;
+  }
+  .head-background {
+    height: 760px;
   }
   #hero-section {
     width: 96vw;
@@ -1642,6 +1619,7 @@ footer {
             flex-direction: column-reverse;
   }
   .hero-text {
+    margin-top: 4rem;
     text-align: center;
   }
   .hero-text h1 {
@@ -1835,6 +1813,12 @@ footer {
   }
   .price-card {
     width: 87vw;
+  }
+  .head-background {
+    height: 766px;
+  }
+  .icon i {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

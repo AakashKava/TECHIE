@@ -9,6 +9,11 @@
     #navbar ul {
         padding-right: 0;
     }
+
+    .head-background{
+        height: 760px;
+    }
+
     #hero-section{
         width: 96vw;
     }
@@ -135,6 +140,7 @@
     }
 
     .hero-text{
+        margin-top: 4rem;
         text-align: center;
     }
 
@@ -348,21 +354,21 @@
         width: 80vw;
     }
 
-    // .owl-caraousel{
-    //     margin-left: 4rem !important;
-    // }
-
     .testimonial-para {
         width: 76vw;
         padding: 2rem 1rem 6rem 2rem;
     }
 
-    // .owl-item{
-    //     margin: 0 3rem;
-    // }
-
     .price-card {
         width: 87vw;
+    }
+
+    .head-background {
+        height: 766px;
+    }
+
+    .icon i {
+        font-size: 30px;
     }
 }
 

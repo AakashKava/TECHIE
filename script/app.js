@@ -89,7 +89,7 @@ for (let i = 0; i < toggles.length; i++) {
 }
 
 // FOR ANIMATION
-const AnimateOnScroll = function ({ offset } = { offset: 10 }) {
+const AnimateOnScroll = function ({ offset } = { offset: 50 }) {
   // Define a dobra superior, inferior e laterais da tela
   const windowTop = (offset * window.innerHeight) / 100;
   const windowBottom = window.innerHeight - windowTop;
