@@ -533,7 +533,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffbb2c;
 }
 
-.service-card .card-svg, i {
+.service-card .card-svg,
+i {
   position: relative;
 }
 
@@ -557,6 +558,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-card .content p {
   font-size: 14px;
+}
+
+#feature {
+  padding: 10rem 0 3rem 0;
 }
 
 .feature-icon-list-img-wrapper {
@@ -620,8 +625,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f9f8ff;
 }
 
+.owl-outer-stage {
+  background-color: #5846f9 !important;
+}
+
 .owl-item {
-  margin-left: 10px;
   width: 380px !important;
 }
 
@@ -631,15 +639,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .owl-dots button span:hover {
-  background-color: #5846f9  !important;
-}
-
-.owl-stage {
-  width: 2500px !important;
+  background-color: #5846f9 !important;
 }
 
 .owl-carousel {
-  padding: 6rem 0;
+  padding: 5rem 0;
+}
+
+.item {
+  padding: 0 2rem;
 }
 
 .testimonial-para {
@@ -657,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testimonial-img img {
-  margin: -4rem 0 0 3rem;
+  margin: -4rem 0 0 2rem;
   width: 80px !important;
   border: 6px solid #fff;
   border-radius: 50%;
@@ -666,7 +674,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-name {
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 
 .card-name h4 {
@@ -858,8 +866,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-  width: 65vw;
-  margin: 0  auto 2rem auto;
+  width: 800px;
+  margin: 0 auto 2rem auto;
   background-color: #ffffff;
   padding: 15px 40px;
   border-radius: 5px;
@@ -869,7 +877,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-toggle,
 .faq-content {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .faq-toggle {
@@ -1254,6 +1262,275 @@ footer {
   }
 }
 
+:root {
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 1s;
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(25%);
+            transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(25%);
+            transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes slideInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes slideInleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes slideInleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes zoomReverseIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes zoomReverseIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@-webkit-keyframes flipInY {
+  0% {
+    opacity: 0;
+    -webkit-transform: perspective(90vw) rotateY(67.5deg);
+            transform: perspective(90vw) rotateY(67.5deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes flipInY {
+  0% {
+    opacity: 0;
+    -webkit-transform: perspective(90vw) rotateY(67.5deg);
+            transform: perspective(90vw) rotateY(67.5deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+[data-animation] {
+  opacity: 0;
+  -webkit-animation-timing-function: var(--animation-timing-function);
+          animation-timing-function: var(--animation-timing-function);
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: var(--animation-duration);
+          animation-duration: var(--animation-duration);
+  will-change: transform, opacity;
+}
+
+.animations-disabled,
+.animations-disabled [data-animation] {
+  -webkit-animation: none !important;
+          animation: none !important;
+  opacity: 1 !important;
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+          animation-name: slideInDown;
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInleft;
+          animation-name: slideInleft;
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+}
+
+.zoomReverseIn {
+  -webkit-animation-name: zoomReverseIn;
+          animation-name: zoomReverseIn;
+}
+
+.flipInY {
+  -webkit-animation-name: flipInY;
+          animation-name: flipInY;
+}
+
+.flipOutY {
+  -webkit-animation-name: flipInY;
+          animation-name: flipInY;
+  animation-direction: reverse;
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 92%;
@@ -1284,13 +1561,10 @@ footer {
     width: 440px;
   }
   .testimonial-para {
-    width: 88vw;
+    width: 86vw;
   }
   .owl-item {
     width: 91vw !important;
-  }
-  .owl-stage {
-    width: 5000px !important;
   }
   .card-side-banner p {
     font-size: 12px;
@@ -1497,7 +1771,7 @@ footer {
     width: 38vw;
   }
   .testimonial-para {
-    width: 87vw;
+    width: 84vw;
   }
   .price-card {
     width: 43vw;
@@ -1559,17 +1833,8 @@ footer {
     width: 76vw;
     padding: 2rem 1rem 6rem 2rem;
   }
-  .owl-item {
-    margin: 0 3rem;
-  }
   .price-card {
     width: 87vw;
-  }
-}
-
-@media (max-width: 425px) {
-  .owl-item {
-    margin: 0px 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

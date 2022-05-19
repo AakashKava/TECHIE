@@ -26,10 +26,11 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <!-- OWL CAROUSEL -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
   </head>
   <header id="navigation">
     <div class="main-nav">
@@ -62,14 +63,14 @@
     <!-- HEAD BACKGROUND -->
     <div class="head-background">
       <section id="hero-section">
-        <div class="hero-text">
+        <div class="hero-text" data-animation="slideInUp" data-animation-delay=".6s">
           <h1>Bettter Digital Experience With Techie</h1>
           <p>
             We are team of talented designers making websites with Bootstrap
           </p>
           <button class="hero-section-btn outline-btn">Get Started</button>
         </div>
-        <div class="hero-banner">
+        <div class="hero-banner" data-animation="zoomIn" data-animation-delay=".8s">
           <img class="up-down" src="images/hero-img.png" alt="" />
         </div>
       </section>
@@ -80,7 +81,7 @@
     <section id="about-wrapper">
       <div class="container">
         <div class="about-text-image-wrapper">
-          <div class="about-text-wrapper">
+          <div class="about-text-wrapper" data-animation="slideInRight" data-animation-delay=".9s">
             <h2>Voluptatem dignissimos provident quasi corporis</h2>
             <p class="about-head-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -107,7 +108,7 @@
             </div>
           </div>
 
-          <div class="about-img-wrapper">
+          <div class="about-img-wrapper" data-animation="zoomIn" data-animation-delay=".7s">
             <img src="images/about.jpg" alt="" />
           </div>
         </div>
@@ -142,7 +143,7 @@
 
     <section id="service">
       <div class="container">
-        <div class="service-head">
+        <div class="service-head" data-animation="slideInUp" data-animation-delay=".5s">  
           <h3>SERVICES</h3>
           <hr class="service-hr" />
           <p>
@@ -154,7 +155,7 @@
         </div>
 
         <div class="service-card-wrapper">
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-1">
               <svg
                 width="100"
@@ -181,7 +182,7 @@
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-2">
               <svg
                 width="100"
@@ -208,7 +209,7 @@
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-3">
               <svg
                 width="100"
@@ -235,7 +236,7 @@
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-4">
               <svg
                 width="100"
@@ -262,7 +263,7 @@
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-2">
               <svg
                 width="100"
@@ -289,7 +290,7 @@
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-animation="zoomIn" data-animation-delay=".9s">
             <div class="card-svg svg-3">
               <svg
                 width="100"
@@ -323,7 +324,7 @@
 
     <section id="feature">
       <div class="container">
-        <div class="service-head feature-head">
+        <div class="service-head feature-head" data-animation="slideInUp" data-animation-delay=".5s">
           <h3>FEATURES</h3>
           <hr class="service-hr" />
           <p>
@@ -334,7 +335,7 @@
           </p>
         </div>
 
-        <div class="feature-icon-list-img-wrapper">
+        <div class="feature-icon-list-img-wrapper" data-animation="slideInUp" data-animation-delay=".5s">
 
           <div class="feature-icon-text">
             <div class="feature-icon-list">
@@ -389,7 +390,7 @@
               </div>
             </div>
           </div>
-          <div class="feature-img">
+          <div class="feature-img" data-animation="zoomIn" data-animation-delay=".9s">
             <img src="images/features.svg" alt="" />
           </div>
         
@@ -402,7 +403,7 @@
 
     <section id="testimonials"> 
       <div class="container">
-        <div class="service-head testimonials-head">
+        <div class="service-head testimonials-head" data-animation="slideInUp" data-animation-delay=".5s">
           <h3>TESTIMONIALS</h3>
           <hr class="service-hr" />
           <p>
@@ -412,118 +413,127 @@
             fugiat sit in iste officiis commodi quidem hic quas.
           </p>
         </div>
+
+        <div class="owl-carousel owl-theme" data-animation="slideInUp" data-animation-delay=".9s">
+          <div class="item">
+            <div class="testimonials-card-wrapper">
+              <div class="testimonial-para">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </span>
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+    
+              <div class="testimonial-img">
+                <img src="images/testimonials-1.jpg" alt="">
+              </div>
+              <div class="card-name">
+                <h4>Saul Goodman</h4>
+                <p>Ceo & Founder</p>
+              </div>
+            </div>
+          </div>
   
-        <div class="owl-carousel owl-theme">
-          <div class="testimonials-card-wrapper">
-            <div class="testimonial-para">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>
-                <span>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </span>
-                <i class="fa-solid fa-quote-right"></i>
-              </p>
+          <div class="item">
+            <div class="testimonials-card-wrapper">
+              <div class="testimonial-para">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </span>
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+    
+              <div class="testimonial-img">
+                <img src="images/testimonials-2.jpg" alt="">
+              </div>
+              <div class="card-name">
+                <h4>Saul Goodman</h4>
+                <p>Ceo & Founder</p>
+              </div>
             </div>
-
-            <div class="testimonial-img">
-              <img src="images/testimonials-1.jpg" alt="">
+          </div>
+  
+          <div class="item">
+            <div class="testimonials-card-wrapper">
+              <div class="testimonial-para">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </span>
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+    
+              <div class="testimonial-img">
+                <img src="images/testimonials-1.jpg" alt="">
+              </div>
+              <div class="card-name">
+                <h4>Saul Goodman</h4>
+                <p>Ceo & Founder</p>
+              </div>
             </div>
-            <div class="card-name">
-              <h4>Saul Goodman</h4>
-              <p>Ceo & Founder</p>
+          </div>
+          
+          <div class="item">
+            <div class="testimonials-card-wrapper">
+              <div class="testimonial-para">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </span>
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+    
+              <div class="testimonial-img">
+                <img src="images/testimonials-3.jpg" alt="">
+              </div>
+              <div class="card-name">
+                <h4>Saul Goodman</h4>
+                <p>Ceo & Founder</p>
+              </div>
             </div>
           </div>
 
-          <div class="testimonials-card-wrapper">
-            <div class="testimonial-para">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>
-                <span>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </span>
-                <i class="fa-solid fa-quote-right"></i>
-              </p>
-            </div>
-
-            <div class="testimonial-img">
-              <img src="images/testimonials-2.jpg" alt="">
-            </div>
-            <div class="card-name">
-              <h4>Sara Wilsson</h4>
-              <p>Designer</p>
-            </div>
-          </div>
-
-          <div class="testimonials-card-wrapper">
-            <div class="testimonial-para">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>
-                <span>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </span>
-                <i class="fa-solid fa-quote-right"></i>
-              </p>
-            </div>
-
-            <div class="testimonial-img">
-              <img src="images/testimonials-3.jpg" alt="">
-            </div>
-            <div class="card-name">
-              <h4>Jena Karlis</h4>
-              <p>Store Owner</p>
+          <div class="item">
+            <div class="testimonials-card-wrapper">
+              <div class="testimonial-para">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </span>
+                  <i class="fa-solid fa-quote-right"></i>
+                </p>
+              </div>
+    
+              <div class="testimonial-img">
+                <img src="images/testimonials-2.jpg" alt="">
+              </div>
+              <div class="card-name">
+                <h4>Saul Goodman</h4>
+                <p>Ceo & Founder</p>
+              </div>
             </div>
           </div>
-
-          <div class="testimonials-card-wrapper">
-            <div class="testimonial-para">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>
-                <span>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </span>
-                <i class="fa-solid fa-quote-right"></i>
-              </p>
-            </div>
-
-            <div class="testimonial-img">
-              <img src="images/testimonials-1.jpg" alt="">
-            </div>
-            <div class="card-name">
-              <h4>Saul Goodman</h4>
-              <p>Ceo & Founder</p>
-            </div>
-          </div>
-
-          <div class="testimonials-card-wrapper">
-            <div class="testimonial-para">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>
-                <span>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </span>
-                <i class="fa-solid fa-quote-right"></i>
-              </p>
-            </div>
-
-            <div class="testimonial-img">
-              <img src="images/testimonials-1.jpg" alt="">
-            </div>
-            <div class="card-name">
-              <h4>Saul Goodman</h4>
-              <p>Ceo & Founder</p>
-            </div>
-          </div>
-        
-
+  
+        </div>
       </div>
-      </div>
-     
+            
     </section>
 
     <!-- PRICING AREA -->
     <section id="pricing">
       <div class="container">
-        <div class="service-head pricing-head">
+        <div class="service-head pricing-head" data-animation="slideInUp" data-animation-delay=".5s">
           <h3>PRICING</h3>
           <hr class="service-hr" />
           <p>
@@ -536,7 +546,7 @@
 
         <!-- PRICE CARD -->
         <div class="price-container">
-          <div class="price-card">
+          <div class="price-card" data-animation="slideInUp" data-animation-delay=".3s">
             <div class="price-head">
               <h5>Free</h5>
             </div>
@@ -576,7 +586,7 @@
             </div>
           </div>
 
-          <div class="price-card">
+          <div class="price-card" data-animation="slideInUp" data-animation-delay=".5s">
             <div class="price-head card-2-head">
               <h5>Business</h5>
             </div>
@@ -614,7 +624,7 @@
             </div>
           </div>
 
-          <div class="price-card">
+          <div class="price-card" data-animation="slideInUp" data-animation-delay=".7s">
             <div class="price-head">
               <h5>Developer</h5>
             </div>
@@ -650,7 +660,7 @@
             </div>
           </div>
 
-          <div class="price-card card-3">
+          <div class="price-card card-3" data-animation="slideInUp" data-animation-delay=".9s">
             <div class="card-side-banner">
               <p>Advanced</p>
             </div>
@@ -694,8 +704,9 @@
 
     <!-- ACCORDIAN / FAQ AREA -->
     <section id="accordian">
-      <div class="service-head faq-head">
-        <h3>FREQUENTLY ASKED QUESTIONS</h3>
+      <div class="service-head faq-head" data-animation="slideInUp" data-animation-delay=".5s">
+        <div class="container">
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
         <hr class="service-hr faq-hr" />
         <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
@@ -703,9 +714,11 @@
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
           fugiat sit in iste officiis commodi quidem hic quas.
         </p>
+        </div>
+        
       </div>
       <div class="container">
-        <div class="wrapper">
+        <div class="wrapper" data-animation="slideInUp" data-animation-delay=".6s">
             <button class="faq-toggle">
               <div class="question-icon">
                 <i class="fa-solid fa-circle-question"></i>
@@ -719,7 +732,7 @@
             </div>
         </div>
 
-        <div class="wrapper">
+        <div class="wrapper"  data-animation="slideInUp" data-animation-delay=".6s">
           <button class="faq-toggle">
             <div class="question-icon">
               <i class="fa-solid fa-circle-question"></i>
@@ -730,9 +743,9 @@
           <div class="faq-content">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facere adipisci quod mollitia, aut nemo deleniti fugiat et, corrupti sequi. Omnis dolorem quos eligendi placeat soluta sint corrupti quod.</p>
           </div>
-      </div>
+        </div>
 
-      <div class="wrapper">
+        <div class="wrapper" data-animation="slideInUp" data-animation-delay=".6s">
         <button class="faq-toggle">
           <div class="question-icon">
             <i class="fa-solid fa-circle-question"></i>
@@ -743,9 +756,9 @@
         <div class="faq-content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facere adipisci quod mollitia, aut nemo deleniti fugiat et, corrupti sequi. Omnis dolorem quos eligendi placeat soluta sint corrupti quod.</p>
         </div>
-    </div>
+        </div>
 
-    <div class="wrapper">
+        <div class="wrapper" data-animation="slideInUp" data-animation-delay=".6s">
       <button class="faq-toggle">
         <div class="question-icon">
           <i class="fa-solid fa-circle-question"></i>
@@ -756,13 +769,13 @@
       <div class="faq-content">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facere adipisci quod mollitia, aut nemo deleniti fugiat et, corrupti sequi. Omnis dolorem quos eligendi placeat soluta sint corrupti quod.</p>
       </div>
-  </div>
+        </div>
       </div>
     </section>
       
     <!-- CONTACT AREA -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-animation="slideInUp" data-animation-delay=".6s">
         <div class="service-head contact-head">
           <h3>CONTACT</h3>
           <hr class="service-hr" />
@@ -826,8 +839,28 @@
     </button>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    
+    <script src="jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="script/app.js"></script>
+
+    <!-- waypoints for animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <!-- FOR OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+
+ 
+
+    
   </body>
 
   <!-- FOOTER AREA -->
@@ -952,8 +985,8 @@
     </div>
   </footer>
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="jquery.counterup.min.js"></script>
-  <script type="text/javascript" src="script/app.js"></script>
+ 
 
 </html>
+
+

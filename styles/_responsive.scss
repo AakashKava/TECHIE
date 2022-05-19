@@ -33,16 +33,25 @@
     }
 
     .testimonial-para{
-        width: 88vw;
+        width: 86vw;
     }
+
+    // .testimonial-img img{
+    //     margin-left: -42rem;
+    // }
+
+    // .card-name {
+    //     margin-left: -70rem;
+    // }
 
     .owl-item {
         width: 91vw !important;
+        // margin:0 4rem !important;
     }
 
-    .owl-stage {
-        width: 5000px !important;
-    }
+    // .owl-stage {
+    //     width: 5000px !important;
+    // }
 
     .card-side-banner p{
         font-size: 12px ;
@@ -272,7 +281,7 @@
     }
 
     .testimonial-para {
-        width: 87vw;
+        width: 84vw;
     }
 
     .price-card {
@@ -348,9 +357,9 @@
         padding: 2rem 1rem 6rem 2rem;
     }
 
-    .owl-item{
-        margin: 0 3rem;
-    }
+    // .owl-item{
+    //     margin: 0 3rem;
+    // }
 
     .price-card {
         width: 87vw;
@@ -360,7 +369,7 @@
 // for testimonials
 
 @media (max-width:425px){
-    .owl-item{
-        margin: 0px 2rem;
-    }
+    // .owl-item{
+    //     margin: 0px 2rem;
+    // }
 }
