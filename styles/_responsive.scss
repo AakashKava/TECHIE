@@ -111,8 +111,8 @@
     #click:checked ~ ul{
         left: 0px;
     }
-    #navbar ul li{
-        width: 100%;
+    #navbar ul li {
+        width: 94vw;
         margin: 12px 0;
     }
     #navbar ul li a{
@@ -369,6 +369,10 @@
 
     .icon i {
         font-size: 30px;
+    }
+    #navbar ul li {
+        width: 92vw;
+        margin: 12px 0;
     }
 }
 
